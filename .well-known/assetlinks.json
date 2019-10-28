@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "caller.live.freeapps.callblocker",
+    "sha256_cert_fingerprints":
+    ["A9:63:F3:97:BB:59:00:E9:41:96:B1:4D:42:16:26:69:8B:40:28:97:5B:E1:F3:98:B5:1C:F7:94:77:EA:F2:0F"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://gongwen.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "caller.live.freeapps.callblocker",
+    "sha256_cert_fingerprints":
+    ["A9:63:F3:97:BB:59:00:E9:41:96:B1:4D:42:16:26:69:8B:40:28:97:5B:E1:F3:98:B5:1C:F7:94:77:EA:F2:0F"]
+  }
+}]
